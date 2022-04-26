@@ -1,0 +1,22 @@
+{
+  "name": "chat-box",
+  "version": "1.0.0",
+  "description": "Add a  small chat box on the bottom-left conner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiiiiilin/chat-box.git"
+  },
+  "author": "Yilin Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yiiiiilin/chat-box/issues"
+  },
+  "homepage": "https://github.com/yiiiiilin/chat-box#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1"
+  }
+}
