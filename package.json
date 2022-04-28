@@ -18,6 +18,7 @@
   "homepage": "https://github.com/yiiiiilin/chat-box#readme",
   "dependencies": {
     "create-react-app": "^5.0.1",
+    "react-icon": "^1.0.0",
     "styled-components": "^5.3.5"
   }
 }
