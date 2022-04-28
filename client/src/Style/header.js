@@ -12,8 +12,8 @@ export const CompanyLogo = styled.img`
   height: aut0;
 `
 export const NavBarContainer = styled.div`
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: 35%;
+  margin-right: 30%;
   display: flex;
 `
 export const NavBar = styled.button`

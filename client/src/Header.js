@@ -24,9 +24,16 @@ export default function Header({handleOnClickOnAbout}) {
           <NavBar className="NavBar1" type="button" value="About" onClick={(e) => handleOnClickOnAbout(e)}>About</NavBar>
           <NavBar className="NavBar2" type="button" value="Games" onClick={handleOnClickOnAbout}>Games</NavBar>
           <NavBar className="NavBar3" type="button" value="ChatApp" onClick={handleOnClickOnAbout}>ChatApp</NavBar>
+          <NavBar className="NavBar3" type="button" value="ChatApp" onClick={handleOnClickOnAbout}>Contact</NavBar>
+
         </NavBarContainer>
         <Buttonposition className="sign_in_button">
-          <Signinbutton>SIGN IN</Signinbutton>
+          <Signinbutton
+            onClick={() => {
+              window.open('https://myaccount.draftkings.com/login?returnPath=%2flobby#promos?returnurl=/lobby');
+            }}
+          >
+            SIGN IN</Signinbutton>
         </Buttonposition>
       </div>
 
