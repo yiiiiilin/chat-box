@@ -42,7 +42,7 @@ export default function ChatApp () {
   }
 
   const handleSubmit = () => {
-    setMessages([...messages, input])
+    setMessages([...messages, {message: input, name: 'From me', time: new Date()}])
   }
 
   // useEffect(() => {
@@ -154,7 +154,8 @@ export default function ChatApp () {
                 height: "100px",
                 width: '280px'
               }}
-            ></textarea>
+            >
+            </textarea>
             <BiMailSend size="25px" style= {{cursor: 'pointer', paddingRight: '10px'}}onClick={handleSubmit} />
             <AiOutlinePicture size='25px' style= {{cursor: 'pointer', paddingRight: '10px'}} />
             <AiOutlineFileAdd size='25px' style= {{cursor: 'pointer'}} />
